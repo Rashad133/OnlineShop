@@ -17,6 +17,7 @@ namespace OnlineShop.DAL
         public DbSet<ProductColor> ProductIColors { get; set; }
         public DbSet<ProductSize> ProductSizes { get; set; }
         public DbSet<Color> Colors { get; set; }
+        public DbSet<Setting> Settings { get; set; }
 
 
     }
